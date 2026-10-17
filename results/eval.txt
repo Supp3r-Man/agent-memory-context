@@ -1,0 +1,25 @@
+400 turns, 8 facts of which 4 were later corrected, 20 conversations (160 questions per cell)
+
+strategy             budget  correct   stale   wrong  missing  avg ctx tokens
+full                    inf   100.0%    0.0%    0.0%     0.0%            4708
+truncate                150     0.0%    0.0%    0.0%   100.0%             144
+summary                 150     2.5%    0.0%    0.0%    97.5%             142
+facts                   150   100.0%    0.0%    0.0%     0.0%             143
+facts-nosupersede       150    50.0%   50.0%    0.0%     0.0%             142
+truncate                300     0.0%    0.0%    0.0%   100.0%             294
+summary                 300    21.2%    0.0%    0.0%    78.8%             295
+facts                   300   100.0%    0.0%    0.0%     0.0%             293
+facts-nosupersede       300    50.0%   50.0%    0.0%     0.0%             293
+truncate                600     0.0%    0.0%    0.0%   100.0%             594
+summary                 600    53.8%    0.0%    0.0%    46.2%             592
+facts                   600   100.0%    0.0%    0.0%     0.0%             595
+facts-nosupersede       600    50.0%   50.0%    0.0%     0.0%             595
+truncate               1200    23.1%    0.0%    0.0%    76.9%            1194
+summary                1200    91.9%    0.0%    0.0%     8.1%            1196
+facts                  1200   100.0%    0.0%    0.0%     0.0%            1195
+facts-nosupersede      1200    67.5%   32.5%    0.0%     0.0%            1196
+
+FactMemory write policy on its own:
+paraphrased 0%: recall 100.0%, precision 61.5%, avg stored 13.0, avg junk 5.0
+paraphrased 20%: recall 79.4%, precision 58.0%, avg stored 11.9, avg junk 5.0
+paraphrased 40%: recall 58.1%, precision 49.6%, avg stored 10.2, avg junk 5.0

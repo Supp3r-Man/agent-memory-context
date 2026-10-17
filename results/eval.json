@@ -1,0 +1,207 @@
+{
+ "turns": 400,
+ "seeds": 20,
+ "facts": 8,
+ "updates": 4,
+ "budgets": [
+  150,
+  300,
+  600,
+  1200
+ ],
+ "rows": {
+  "full@0": {
+   "strategy": "full",
+   "budget": 0,
+   "questions": 160,
+   "accuracy": 1.0,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 0.0,
+   "avg_context_tokens": 4708.4
+  },
+  "truncate@150": {
+   "strategy": "truncate",
+   "budget": 150,
+   "questions": 160,
+   "accuracy": 0.0,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 1.0,
+   "avg_context_tokens": 143.8
+  },
+  "summary@150": {
+   "strategy": "summary",
+   "budget": 150,
+   "questions": 160,
+   "accuracy": 0.025,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 0.975,
+   "avg_context_tokens": 142.35
+  },
+  "facts@150": {
+   "strategy": "facts",
+   "budget": 150,
+   "questions": 160,
+   "accuracy": 1.0,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 0.0,
+   "avg_context_tokens": 142.89375
+  },
+  "facts-nosupersede@150": {
+   "strategy": "facts-nosupersede",
+   "budget": 150,
+   "questions": 160,
+   "accuracy": 0.5,
+   "stale": 0.5,
+   "wrong": 0.0,
+   "missing": 0.0,
+   "avg_context_tokens": 142.10625
+  },
+  "truncate@300": {
+   "strategy": "truncate",
+   "budget": 300,
+   "questions": 160,
+   "accuracy": 0.0,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 1.0,
+   "avg_context_tokens": 293.5
+  },
+  "summary@300": {
+   "strategy": "summary",
+   "budget": 300,
+   "questions": 160,
+   "accuracy": 0.2125,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 0.7875,
+   "avg_context_tokens": 294.9
+  },
+  "facts@300": {
+   "strategy": "facts",
+   "budget": 300,
+   "questions": 160,
+   "accuracy": 1.0,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 0.0,
+   "avg_context_tokens": 293.03125
+  },
+  "facts-nosupersede@300": {
+   "strategy": "facts-nosupersede",
+   "budget": 300,
+   "questions": 160,
+   "accuracy": 0.5,
+   "stale": 0.5,
+   "wrong": 0.0,
+   "missing": 0.0,
+   "avg_context_tokens": 293.1
+  },
+  "truncate@600": {
+   "strategy": "truncate",
+   "budget": 600,
+   "questions": 160,
+   "accuracy": 0.0,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 1.0,
+   "avg_context_tokens": 594.45
+  },
+  "summary@600": {
+   "strategy": "summary",
+   "budget": 600,
+   "questions": 160,
+   "accuracy": 0.5375,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 0.4625,
+   "avg_context_tokens": 592.45
+  },
+  "facts@600": {
+   "strategy": "facts",
+   "budget": 600,
+   "questions": 160,
+   "accuracy": 1.0,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 0.0,
+   "avg_context_tokens": 594.65625
+  },
+  "facts-nosupersede@600": {
+   "strategy": "facts-nosupersede",
+   "budget": 600,
+   "questions": 160,
+   "accuracy": 0.5,
+   "stale": 0.5,
+   "wrong": 0.0,
+   "missing": 0.0,
+   "avg_context_tokens": 594.8
+  },
+  "truncate@1200": {
+   "strategy": "truncate",
+   "budget": 1200,
+   "questions": 160,
+   "accuracy": 0.23125,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 0.76875,
+   "avg_context_tokens": 1193.8
+  },
+  "summary@1200": {
+   "strategy": "summary",
+   "budget": 1200,
+   "questions": 160,
+   "accuracy": 0.91875,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 0.08125,
+   "avg_context_tokens": 1195.8
+  },
+  "facts@1200": {
+   "strategy": "facts",
+   "budget": 1200,
+   "questions": 160,
+   "accuracy": 1.0,
+   "stale": 0.0,
+   "wrong": 0.0,
+   "missing": 0.0,
+   "avg_context_tokens": 1194.975
+  },
+  "facts-nosupersede@1200": {
+   "strategy": "facts-nosupersede",
+   "budget": 1200,
+   "questions": 160,
+   "accuracy": 0.675,
+   "stale": 0.325,
+   "wrong": 0.0,
+   "missing": 0.0,
+   "avg_context_tokens": 1195.5
+  }
+ },
+ "store": [
+  {
+   "paraphrase_rate": 0.0,
+   "recall": 1.0,
+   "precision": 0.6153846153846152,
+   "avg_stored": 13.0,
+   "avg_junk": 5.0
+  },
+  {
+   "paraphrase_rate": 0.2,
+   "recall": 0.79375,
+   "precision": 0.5796037296037295,
+   "avg_stored": 11.95,
+   "avg_junk": 5.0
+  },
+  {
+   "paraphrase_rate": 0.4,
+   "recall": 0.58125,
+   "precision": 0.49642579642579643,
+   "avg_stored": 10.15,
+   "avg_junk": 5.0
+  }
+ ]
+}
