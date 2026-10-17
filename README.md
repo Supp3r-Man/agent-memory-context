@@ -4,7 +4,7 @@
 
 Context engineering for a long-running agent, **measured**: what does the model get to see when the conversation is far bigger than its context window? Four strategies get the same hard token budget and the same questions, scored on whether the right, *current* fact is in front of the model.
 
-> **What is verified, and what is not.** 47 tests pass locally on Python 3.13 (stdlib only), including a test that re-runs the evaluation and checks it still reproduces `results/eval.json`, and I broke the supersede step on purpose and the tests failed. **There is no live model.** The "reader" is a deterministic stand-in that answers from whatever context it is handed, so this measures *context selection*, not reasoning. The conversations are synthetic (invented values, `.example` addresses). Token counts are approximate (words plus punctuation).
+> **What is verified, and what is not.** 47 tests pass locally on Python 3.13, and in GitHub Actions on Linux with Python 3.11 and 3.13 (stdlib only), including a test that re-runs the evaluation and checks it still reproduces `results/eval.json`, and I broke the supersede step on purpose and the tests failed. **There is no live model.** The "reader" is a deterministic stand-in that answers from whatever context it is handed, so this measures *context selection*, not reasoning. The conversations are synthetic (invented values, `.example` addresses). Token counts are approximate (words plus punctuation).
 
 ## The setup
 
