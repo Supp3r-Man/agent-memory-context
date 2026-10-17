@@ -1,6 +1,6 @@
 # agent-memory-context
 
-![ci](https://github.com/Sup3rMar10/agent-memory-context/actions/workflows/ci.yml/badge.svg)
+![ci](https://github.com/Supp3r-Man/agent-memory-context/actions/workflows/ci.yml/badge.svg)
 
 Context engineering for a long-running agent, **measured**: what does the model get to see when the conversation is far bigger than its context window? Four strategies get the same hard token budget and the same questions, scored on whether the right, *current* fact is in front of the model.
 
